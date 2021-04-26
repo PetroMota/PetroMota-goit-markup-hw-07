@@ -1,0 +1,24 @@
+.main-head {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.logo-style {
+  color: #2196f3;
+}

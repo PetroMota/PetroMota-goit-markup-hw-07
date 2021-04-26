@@ -1,0 +1,14 @@
+.link.current {
+  position: relative;
+  color: var(--accent-color);
+}
+.current::after {
+  content: "";
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  margin-top: 31px;
+  width: 100%;
+  display: block;
+  position: absolute;
+}

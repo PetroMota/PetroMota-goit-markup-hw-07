@@ -1,0 +1,32 @@
+@import "./vendors/modern-normalize";
+
+@import "./utils/variables";
+
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/button";
+@import "./components/footer-form";
+@import "./components/modal";
+@import "./components/modal-form";
+@import "./components/title";
+@import "./components/socials-icons";
+@import "./components/socials-list";
+@import "./components/filter-list";
+
+@import "./layouts/header";
+@import "./layouts/navigation";
+@import "./layouts/current";
+@import "./layouts/contacts";
+@import "./layouts/hero";
+@import "./layouts/grid";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/footer-social";
+
+@import "./layouts/portfolio";
+@import "./layouts/project-list";
+@import "./layouts/project-thumb";
+@import "./layouts/projects-overlay";
